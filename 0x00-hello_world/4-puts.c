@@ -2,9 +2,9 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: 'prints out using puts'
- * 
+ *
  * Return: Always 0 (Success)
  */
 
