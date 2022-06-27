@@ -14,4 +14,7 @@ reference for:
 		https://www.cyberciti.biz/faq/compiling-c-program-and-creating-executable-file/
 
 	4-puts.c
-		
+		https://www.educative.io/answers/what-is-puts-in-c
+
+	5-printf.c
+				
