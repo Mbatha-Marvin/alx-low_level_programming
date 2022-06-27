@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-/*prints out using puts*/
+/**
+ * main - Entry point
+ * 
+ * Description: 'prints out using puts'
+ * 
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
