@@ -8,4 +8,7 @@ reference for:
 		https://www.techonthenet.com/c_language/file_naming.php
 	
 	2-assembler
+		https://www.geeksforgeeks.org/convert-cc-code-to-assembly-language/
+
+	3-name
 		
