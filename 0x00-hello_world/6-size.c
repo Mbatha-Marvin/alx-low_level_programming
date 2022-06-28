@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * Entry point - main
+ * main - Entry point
  *
- * Prints out the size of various data types
+ * Description: 'prints out size of datatypes'
  *
- *Returns: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
