@@ -15,16 +15,11 @@ int main(void)
 
 	while (x <= 'Z')
 	{
-		if (x == 'Z')
-		{
-			putchar(tolower(x) + "\n")
-		}
-		else if (x < 'Z')
-		{
-			putchar(tolower(x));
-		}
+		putchar(tolower(x));
 		x++;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
