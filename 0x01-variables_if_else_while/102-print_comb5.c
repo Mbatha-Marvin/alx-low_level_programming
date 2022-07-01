@@ -15,13 +15,13 @@ int main(void)
 	for (i = 0; i <= 9; i++)
 	{
 		a = i + '0';
-		for (j = 0; j <=8; j++)
+		for (j = 0; j <= 8; j++)
 		{
 			b = j + '0';
 			for (k = i; k <= 9; k++)
 			{
 				c = k + '0';
-				for (l = k + 1; l <= 9; l++)
+				for (l = j + 1; l <= 9; l++)
 				{
 					d = l + '0';
 					putchar(a);
