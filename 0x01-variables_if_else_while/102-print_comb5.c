@@ -23,12 +23,19 @@ int main(void)
 				c = k + '0';
 				for (l = j; l <= 9; l++)
 				{
-					d = l + '0';
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
+					if (i == 0 && j == 0 && k == 0 && l == 0)
+					{
+						continue;
+					}
+					else
+					{
+						d = l + '0';
+						putchar(a);
+						putchar(b);
+						putchar(' ');
+						putchar(c);
+						putchar(d);
+					}
 
 					if (i == 9 && j == 8 && k == 9 && l == 9)
 					{
