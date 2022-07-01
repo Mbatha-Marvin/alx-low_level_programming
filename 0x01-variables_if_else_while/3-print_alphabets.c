@@ -12,16 +12,17 @@
 int main(void)
 {
 	int x = 'A';
+	int y = 'A';
 
 	while (x <= 'Z')
 	{
 		putchar(tolower(x));
 		x++;
 	}
-	while (x <= 'Z')
+	while (y <= 'Z')
 	{
-		putchar(x);
-		x++;
+		putchar(y);
+		y++;
 	}
 
 	putchar('\n');
