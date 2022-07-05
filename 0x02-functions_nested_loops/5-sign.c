@@ -6,13 +6,14 @@
  *
  * Description: Checks if a number is positive or negative
  *
- * Returns: Always 1 (Success)
+ * Return: Always 1 (Success)
  */
 
 int print_sign(int n)
 {
 	int res;
 	char sign;
+
 	if (n > 0)
 	{
 		sign = '+';
