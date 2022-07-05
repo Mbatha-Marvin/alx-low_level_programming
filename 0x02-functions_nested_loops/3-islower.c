@@ -2,8 +2,10 @@
 
 /**
  * _islower - Entry point
- *
+ * @c: integer input of character
  * Description: checks if an input is a lower alphabet
+ *
+ * Return: Always 1 (Success)
  */
 
 int _islower(int c)
