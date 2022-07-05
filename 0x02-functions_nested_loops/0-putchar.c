@@ -1,6 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "main.h"
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -19,7 +20,7 @@ int main(void)
 
 	for (i = 0; i < length; i++)
 	{
-		_putchar(i);
+		_putchar(str1[i]);
 	}
 
 	return (0);
