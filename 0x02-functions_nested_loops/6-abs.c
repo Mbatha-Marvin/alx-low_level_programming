@@ -2,7 +2,7 @@
 
 /**
  * _abs - Entry point
- * @: takes in an integer
+ * @n: takes in an integer
  *
  * Description: converts integers to absolute values
  *
