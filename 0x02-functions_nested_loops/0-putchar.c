@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	const char str1[] = "_putchar\n";
+	char str1[] = "_putchar\n";
 	int length = strlen(str1);
 	int i;
 
