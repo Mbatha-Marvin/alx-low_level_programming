@@ -52,7 +52,7 @@ void print_numbers(int k, int mod)
  * print_times_table - print the n x i table
  * @n: integer n
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 	int left, right, product, mod, postprod;
 

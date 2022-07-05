@@ -92,5 +92,10 @@ int add(int, int);
 
 void print_to_98(int n);
 
+/**
+ * times_table - print the 9 x i table
+ */
+
+void print_times_table(void);
 
 #endif
