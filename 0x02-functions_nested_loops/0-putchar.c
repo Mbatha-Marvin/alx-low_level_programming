@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	char str1[] = "_putchar\n";
+	const char str1[] = "_putchar\n";
 	int length = strlen(str1);
 	int i;
 
