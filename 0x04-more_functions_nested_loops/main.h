@@ -54,7 +54,7 @@ void print_most_numbers(void);
  * more_numbers - prints the numbers 0 - 14 ten times
  */
 
-void most_numbers(void);
+void more_numbers(void);
 
 /**
  * print_line - prints out lines
