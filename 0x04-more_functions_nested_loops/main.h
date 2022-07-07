@@ -44,5 +44,37 @@ int _putchar(char c);
 
 void print_numbers(void);
 
+/**
+ * print_most_numbers - prints all single numbers except 2 and 4
+ */
+
+void print_most_numbers(void);
+
+/**
+ * more_numbers - prints the numbers 0 - 14 ten times
+ */
+
+void most_numbers(void);
+
+/**
+ * print_line - prints out lines
+ * @n: number of lines to be printed
+ */
+
+void print_line(int n);
+
+/**
+ * print_diagonal - prints diagonal
+ * @n: size of diagonal
+ */
+
+void print_diagonal(int n);
+
+/**
+ * print_square - prints squares
+ * @size: size of square
+ */
+
+void print_square(int size);
 
 #endif
