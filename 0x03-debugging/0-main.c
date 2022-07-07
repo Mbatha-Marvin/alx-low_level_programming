@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * main2 - Entry point
+ * main - Entry point
  *
  * Description: checks if the function prints right output
  *
  * Return: 0
  */
 
-int main2(void)
+int main(void)
 {
 	int i;
 
-	i = 0;
+	i = 98;
 
 	positive_or_negative(i);
 
