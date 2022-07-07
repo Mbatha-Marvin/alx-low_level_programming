@@ -10,6 +10,14 @@
  * Return: Always 0 (Success)
  */
 
-void positive_or_negative(int i);
+int positive_or_negative(int i);
+
+/**
+ * main2 - functions as a second main
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main2(void);
 
 #endif
