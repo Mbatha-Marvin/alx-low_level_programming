@@ -3,6 +3,13 @@
 
 #include <stdio.h>
 
+/**
+ * positive_or_negaetive - checks if a number is positive
+ * @i: integer input
+ *
+ * Return: Always 0 (Success)
+ */
+
 void positive_or_negative(int i);
 
-#endif /* MAIN_H */
+#endif
