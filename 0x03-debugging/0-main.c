@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main2 - Entry point
  *
  * Description: checks if the function prints right output
  *
  * Return: 0
  */
 
-int main(void)
+int main2(void)
 {
 	int i;
 
