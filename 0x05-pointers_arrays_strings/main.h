@@ -53,4 +53,44 @@ void print_rev(char *s);
  */
 int _putchar(char c);
 
+/**
+ * rev_string - reverse a string
+ * @s: pointer to the string
+ */
+
+void rev_string(char *s);
+
+/**
+ * puts2 - printrs every other character
+ * @str: string pointer
+ */
+
+void puts2(char *str);
+
+/**
+ * puts_half - prints last half of a string
+ * @str: string to be evaluated
+ */
+
+void puts_half(char *str);
+
+/**
+ * print_array - prints elements of an array
+ * @a: array
+ * @n length of the array
+ */
+
+void print_array(int *a, int n);
+
+/**
+ * _strcpy - copies the pointer
+ * @dest: location to be copied to
+ * @src: pointer to be copied
+ *
+ * Return: a pointer value stored in dest
+ */
+
+char *_strcpy(char *dest, char *src);
+
+
 #endif
