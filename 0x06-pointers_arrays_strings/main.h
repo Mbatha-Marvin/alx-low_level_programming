@@ -150,4 +150,44 @@ int _strcmp(char *s1, char *s2);
 
 void reverse_array(int *a, int n);
 
+/**
+ * string_toupper - convert to uppercase
+ * Return: char pointer
+ */
+
+char *string_toupper(char *);
+
+/**
+ * cap_string - capitalize each word
+ * @k: word strring
+ *
+ * Return: string
+ */
+char *cap_string(char *s);
+
+/**
+ * leet - encode a string to 1337
+ * @s: string
+ *
+ * Return: string
+ */
+
+char *leet(char *s);
+
+/**
+ * rot13 - encode a string using rot13
+ * @s: string
+ *
+ * Return: string
+ */
+
+char *rot13(char *s);
+
+/**
+ * print_number - print an integer, without using long, arrays, or pointers
+ * @n: number to be printed
+ */
+
+void print_number(int n);
+
 #endif
