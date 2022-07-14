@@ -190,4 +190,28 @@ char *rot13(char *s);
 
 void print_number(int n);
 
+/**
+ * infinite_add - adds two numbers
+ * @n1: first number
+ * @n2: second number
+ * @r: buffer
+ * @size_r: size of the buffer
+ * 
+ * Return: pointer to the result
+ */
+
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
+/**
+ * add_strings - Adds the numbers stored in two strings.
+ * @n1: The string containing the first number to be added.
+ * @n2: The string containing the second number to be added.
+ * @r: The buffer to store the result.
+ * @r_index: The current index of the buffer.
+ *
+ * Return: If r can store the sum - a pointer to the result.
+ *         If r cannot store the sum - 0.
+ */
+
+char *add_strings(char *n1, char *n2, char *r, int r_index);
 #endif
