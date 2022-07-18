@@ -42,7 +42,8 @@ char *_strchr(char *s, char c);
  * @s: string being compared to accept
  * @accept: bytes being checked
  *
- * Return: the number of bytes in the initial segment of s which consist only of bytes from accept
+ * Return: the number of bytes in the initial segment of
+ * s which consist only of bytes from accept
  */
 
 unsigned int _strspn(char *s, char *accept);
@@ -53,9 +54,9 @@ unsigned int _strspn(char *s, char *accept);
  * @s: string we are evaluating for the occurance of accept
  * @accept: bytes being located in s
  * Return: a pointer to the byte in s that matches one of the bytes in accept,
- * 		   or NULL if no such byte is found
+ * or NULL if no such byte is found
  */
-`
+
 char *_strpbrk(char *s, char *accept);
 
 /**
@@ -64,18 +65,20 @@ char *_strpbrk(char *s, char *accept);
  * @haystack: String
  * @needle: string being sort
  *
- * Return: a pointer to the beginning of the located substring, or NULL if the substring is not found.
+ * Return: a pointer to the beginning of the located substring,
+ * or NULL if the substring is not found.
  */
 
 char *_strstr(char *haystack, char *needle);
 
 /**
  * _putchar - prints out a charater
+ * @c: character to be printed
  *
  * Return: Always 0 (Success)
  */
 
-int _putchar(char);
+int _putchar(char c);
 
 /**
  * print_chessboard - print chessboard given set 2D array
@@ -96,7 +99,7 @@ void print_diagsums(int *a, int size);
 
 /**
  * set_string - set the string
- * 
+ *
  * @s: string
  * @to: result
  */
