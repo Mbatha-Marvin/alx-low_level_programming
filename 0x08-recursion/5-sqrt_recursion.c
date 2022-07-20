@@ -20,7 +20,7 @@ int sqrt_check(int guess, int i)
 		return (-1);
 	}
 
-	return (sqrt_check((guess + 1), c));
+	return (sqrt_check((guess + 1), i));
 }
 
 /**
