@@ -48,4 +48,33 @@ int _strlen_recursion(char *s);
 
 int factorial(int n);
 
+/**
+ * _pow_recursion - finds the power of a number recursively
+ * @x: base value
+ * @y: power value
+ *
+ * Return: power of x
+ * else -1 if y < 0
+ */
+
+int _pow_recursion(int x, int y);
+
+/**
+ * _sqrt_recursion - finds squareroot recursively
+ * @n: value being evaluated
+ *
+ * Return: squareroot or -1 if natural sqrt doesn't exist
+ */
+
+int _sqrt_recursion(int n);
+
+/**
+ * is_prime_number - finds out if an integer is a prime number
+ * @n: integer being valuated
+ *
+ * Return: 1 if prime number else 0
+ */
+
+int is_prime_number(int n);
+
 #endif
