@@ -29,4 +29,23 @@ void _print_rev_recursion(char *s);
 
 int _putchar(char c);
 
+/**
+ * _strlen_recursion - finds lenght of a string recursively
+ * @s: string to evaluate
+ *
+ * Return: Always (0) success
+ */
+
+int _strlen_recursion(char *s);
+
+/**
+ * factorial - returns the factorial of value stored in n
+ * @n: value to find its factorial
+ *
+ * Return: the factorial
+ * -1 if value of n less than 0
+ */
+
+int factorial(int n);
+
 #endif
