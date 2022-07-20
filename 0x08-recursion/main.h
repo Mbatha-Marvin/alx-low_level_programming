@@ -69,6 +69,26 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 
 /**
+ * sqrt_check - checks for square root of i
+ * @guess: guess of square root
+ * @i: number to find square root
+ *
+ * Return: square root of i or -1
+ */
+
+int sqrt_check(int guess, int i);
+
+/**
+ * prime_num_check - checks if number is a prime number
+ * @f: factor check
+ * @p: possible prime number
+ *
+ * Return: 1 if prime else 0
+ */
+
+int prime_num_check(int f, int p);
+
+/**
  * is_prime_number - finds out if an integer is a prime number
  * @n: integer being valuated
  *
