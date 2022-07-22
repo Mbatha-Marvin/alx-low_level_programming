@@ -1,24 +1,6 @@
 #include "main.h"
 
 /**
- * is_num - iterate through each argv to test if it's a number
- * @argvv: a argv
- * Return: true only if entire string is a number, false if not
- */
-
-bool is_num(char *argvv)
-{
-	int j = 0;
-
-	for (j = 0; argvv[j]; j++)
-	{
-		if (!(argvv[j] >= '0' && argvv[j] <= '9'))
-			return (0);
-	}
-	return (1);
-}
-
-/**
  * main - print sum if all arguments given are numbers
  * @argc: argument counter
  * @argv: arguments
@@ -27,28 +9,26 @@ bool is_num(char *argvv)
 
 int main(int argc, char *argv[])
 {
-	int i = 1;
-	int sum = 0;
+	int i, sum = 0;
 
-	/* validate input */
 	if (argc == 1)
 	{
-		printf("0\n");
-		return (0);
+		printf("%d\n", 0);
 	}
 
-	/* check all arguments to add numbers */
-	while (i < argc)
+	for (i = 1; i < argc; i++)
 	{
-		if (is_num(argv[i]))
-			sum += atoi(argv[i]);
+		if (strtol(argv[i], NULL, 10))
+		{
+			sum += strtol(argv[i], NULL, 10);
+		}
 		else
 		{
 			printf("Error\n");
 			return (1);
 		}
-		i++;
 	}
+
 	printf("%d\n", sum);
 
 	return (0);
